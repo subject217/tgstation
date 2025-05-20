@@ -314,6 +314,10 @@
 	ignore_flags = 0
 	list_reagents = list(/datum/reagent/magillitis = 5)
 
+///Prevents the magillitis medipen from being blended to extract its reagents.
+/obj/item/reagent_containers/hypospray/medipen/magillitis/blend_requirements(obj/machinery/reagentgrinder/R)
+	return FALSE
+
 /obj/item/reagent_containers/hypospray/medipen/pumpup
 	name = "maintenance pump-up"
 	desc = "A ghetto looking autoinjector filled with a cheap adrenaline shot... Great for shrugging off the effects of stunbatons."
