@@ -2134,6 +2134,10 @@ GLOBAL_LIST_EMPTY(blended_hair_icons_cache)
 	name = "Fennec"
 	icon_state = "big"
 
+/datum/sprite_accessory/ears_fox/pointy
+	name = "Pointy"
+	icon_state = "pointy"
+
 /datum/sprite_accessory/wings
 	icon = 'icons/mob/human/species/wings.dmi'
 	em_block = TRUE
